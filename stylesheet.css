@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'roboto',sans-serif;
+}
+.img{
+    padding-top: 8px;
+    height: 47px;
+    width: auto;
+    margin-left: 10px;
+}
+.list{
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    gap:43px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.home{
+    text-decoration: none;
+    color:black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px
+}
+.black{
+    height:60px;
+    
+    background-color:black;
+    color:white;
+}
+.black h3{
+    padding-top: 15px;
+    margin-left: 20px;
+    align-self: center;
+}
+.af{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.form{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.form li{
+    list-style: none;
+    font-weight: bolder;
+}
+.member{
+    display: flex;
+    align-items: center;
+    gap:20px;
+
+}
+.textbox{
+    resize: none;
+    height:25px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border:1px solid black;
+    border-radius:0px;
+}
+.member-name{
+    gap:10px;
+    display: flex;
+}
+.doo{
+    text-decoration: none;
+}
+.select-button{
+    height:40px;
+    font-size: 18px;
+    border-radius: 0%;
+    border-color: 1px solid black;
+}
+.footer{
+    border: 1px solid black;
+    height: 200px;
+    background-color: rgb(218, 216, 213);
+    margin-left: 8px;
+    margin-right: 2px;
+    padding: 2%;
+}
+.footlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+}
+.footlogo img{
+    height: 70px;
+    margin-top:1px;
+}
+.check{
+    display: flex;
+    font-size: 13px;
+}
+.submit{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(1, 1, 1);
+    color: white;
+    border-radius: 8px;
+}
+.contact{
+    display: flex;
+    gap:8px; 
+    justify-content: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
