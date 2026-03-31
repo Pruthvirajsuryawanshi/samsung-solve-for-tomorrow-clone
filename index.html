@@ -1,253 +1,239 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="icon" type="image" href="icon.png">
-        <title>Samsung:: Solve For tomorrow</title>
-        <link rel="stylesheet" href="stylesheet.css"></a>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samsung Solve for Tomorrow 2025 application form clone built for educational practice.">
+    <title>Samsung :: Solve for Tomorrow</title>
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="page-wrapper">
         <header class="header">
-            <img src="samsung.png" alt="image" class="img">
-            <nav class="navbar">
-             <ul class="list">
-                <li><a href="index.html" class="home">Home</a></li>
-                <li><a href="design-thinking-toolkit.pdf" target="_blank" class="home">Design Thinking Toolkit</a></li>
-                <li><a href="https://www.samsung.com/in/solvefortomorrow/#faqs" target="_blank" class="home">FAQ</a></li>
-             </ul>
+            <a href="index.html" class="brand" aria-label="Samsung homepage">
+                <img src="samsung.png" alt="Samsung logo" class="img">
+            </a>
+            <nav class="navbar" aria-label="Main navigation">
+                <ul class="list">
+                    <li><a href="index.html" class="home">Home</a></li>
+                    <li><a href="design-thinking-toolkit.pdf" target="_blank" rel="noopener" class="home">Design Thinking Toolkit</a></li>
+                    <li><a href="https://www.samsung.com/in/solvefortomorrow/#faqs" target="_blank" rel="noopener" class="home">FAQ</a></li>
+                </ul>
             </nav>
-            
         </header>
-         <div class="black">
-            <h3>Solve For tomorrow 2025</h3>
-         </div>
-         <main class="main">
-            <p class="af">Application Form</p>
-            <form class="form"> 
-            <p>You may want to grab a pen and paper to take notes & prepare your answers as your progress will not be saved until submitted.</p>
-            <br>
-            <p>Before you start, did you use our Design Thinking Toolkit? You can download this free resource from our website to help you with your application.</p>
-            <br><br>
-            <li>1. Who is entering?* Individual/Team</li>
-                <br>
 
-            <div> 
-            <input type="radio" name="who" value="me">
-            <lable for="me">Just Me</lable>
-
-            <input type="radio" name="who" value="two">
-            <lable for="two" >Team Of Two</lable>
-
-            <input type="radio" name="who" value="three">
-            <lable for three>Team Of Three</lable>
+        <section class="hero">
+            <div class="hero-copy">
+                <small class="eyebrow">Samsung Solve for Tomorrow</small>
+                <h1>Solve For Tomorrow 2025</h1>
+                <p>Submit your idea for a smarter, more inclusive future with technology.</p>
             </div>
-            <br>
+        </section>
 
-            <li>2.Full Name</li>
-            <br>
-            <div class="member">
-            <p>Member1</p>
-            <input type="text" class="textbox">
-            </div>
-            <br>
-            <li>3.Age</li>
-   <div class="member">  
-  <p>Member1</p>
-     <label for="age14">14
-        <input type="radio" id="age14" name="age" value="14">
-      </label>
-      <label for="age15">15
-        <input type="radio" id="age15" name="age" value="15">
-      </label>
-      <label for="age16">16
-        <input type="radio" id="age16" name="age" value="16">
-      </label>
-      <label for="age17">17
-        <input type="radio" id="age17" name="age" value="17">
-      </label>
-      <label for="age18">18
-        <input type="radio" id="age18" name="age" value="18">
-      </label>
-      <label for="age19">19
-        <input type="radio" id="age19" name="age" value="19">
-      </label>
-      <label for="age20">20
-        <input type="radio" id="age20" name="age" value="20">
-      </label>
-      <label for="age21">21
-        <input type="radio" id="age21" name="age" value="21">
-      </label>
+        <main class="main">
+            <article class="card">
+                <h2 class="form-title">Application Form</h2>
+                <p class="intro">You may want to grab a pen and paper to take notes & prepare your answers as your progress will not be saved until submitted.</p>
+                <p class="intro">Before you start, did you use our Design Thinking Toolkit? You can download it from the Samsung website to help you with your application.</p>
 
-      <label for="age22">22
-        <input type="radio" id="age22" name="age" value="22">
-      </label>
-
-  </div>      
-             
-            <li>4.Gender</li>
-            <div class="member"> 
-
-            <p>Member1</p>
-            <input type="radio" name="gen" value="male">
-            <lable for three>Male</lable>
-
-            <input type="radio" name="gen" value="female">
-            <lable for three>Female</lable>
-
-            <input type="radio" name="gen" value="three">
-            <lable for three>Prefer Not To Say</lable>
-
-
-          </div>
-
-            <li>5.Where are you entering from</li>
-            <div class="member">
-              <p>member1</p>
-              <select class="select-button">
-                <option>-select state-</option>
-                <option>Maharastra</option>
-                <option>Goa</option>
-                <option>Karnataka</option>
-                <option>Gujrat</option>
-                <option>Andhra Pradesh</option>
-                <option>Bihar</option>
-                <option>Haryana</option>
-                <option>Delhi</option>
-                <option>Himachal Pradesh</option>
-                <option>Jharkhand</option>
-              </select>
-
-              <select class="select-button">
-                <option>Select City</option>
-              </select>
-            </div>
-
-            <li>6. Please indicate your most recent education.</li>
-                <div class="member">
-                  <p>Member1</p>
-                   <input type="radio" name="edu" value="edu">
-                   <lable for edu>School</lable>
-
-                   <input type="radio"  name="edu" value="edu">
-                   <lable for edu>Collage</lable>
-
-                   <input type="radio" name="edu" value="edu">
-                   <lable for edu>Other</lable>
-                </div>
-            <li>7. Do you have any disability?</li>
-            <div class="member">
-              <p>Member1</p>
-              <input type="radio" name="dis" value="edu">
-              <lable>Yes</lable>
-
-              <input type="radio" name="dis" value="edu">
-              <lable>No</lable>
-            </div>
-            <li>8. Team name:</li>
-            <div class="member">
-              <input type="text" class="textbox">
-            </div>
-            <br>
-            <li>9. Select the theme under you are submiting your idea.</li>
-            <div class="member">
-              <select class="select-button">
-                <option>Select Theme</option>
-                <option>AI for smarter and inclusive Bharat</option>
-                <option>Future of health, hygine and wellbing in india</option>
-                <option>Social change throgh Sports & Tech: For education & Better Future</option>
-                <option>Environmental Sustainability via Technology</option>
-              </select>
-            </div>
-            <br>
-            <li>10. Describe your problem within "your theme" that you are trying to solve?</li>
-            <div class="member">
-              <textarea class="textbox" style="height: 90px;"></textarea>
-            </div>
-            <br>
-            
-            <li>11. Describe in detail the solution you will provide to solve the problem. What is your idea (App, Product, or Service) and how does it overcome a problem for your user?</li>
-            <div class="member">
-              <textarea class="textbox" style="height: 90px;"></textarea>
-           <br>
-            </div>
-            <br>
-            <li>12. Tell us more about what type of person your idea is created for. Who is the target audience or user for the solution that you have created?</li>
-            <div class="member">
-              <textarea class="textbox" style="height: 90px;"></textarea>
-            </div>
-            <br>
-
-
-            <li>13. What is the current stage of your project?</li>
-            <br>
-             <select class="select-button" style="width: 100%;">
-              <option>Select Current Stage</option>
-              <option>Idea/Concept</option>
-              <option>Early Devolopement</option>
-              <option>Advanced Stage</option>
-              <option>Prototype Ready</option>
-             </select>
-            <br>
-            <p style="font-weight: bold; font-size: 22px;">We need to be able to contact you to let you know if your application has been successful – if entering as a team, please appoint one person to be your main point of contact.</p>
-            <li>14. Name of Team Lead.</li>
-            <input type="text" class="textbox"><br>
-            <br>
-            <li>15. Phone number of the Team Lead (or Guardian, if you are below 18 years of age)</li>
-            <input type="number" class="textbox">
-            <br>
-            <br>
-            <li>16. Email address of the Team Lead (or Guardian, if you are below 18 years of age)</li>
-            <input type="text" class="textbox">
-            <br>
-            <br>
-            <li>17. Where did you first find out about Samsung Solve for Tomorrow?</li>
-            <input type="text" class="textbox">
-            <br>
-            <br>
-
-            <div class="check">
-          <input type="checkbox"><P>I have read, understood and agreed to the Terms and Conditions and the Privacy Notice of Samsung Solve for Tomorrow.</P>
-          </div>
-
-           <div class="check">
-          <input type="checkbox"><P>By completing this form, you agree to receive information about Samsung Solve for Tomorrow.</P>
-           </div>
-
-            <div class="check">
-          <input type="checkbox"><P>Information provided by me is true and correct, and I will be responsible for any consequences of submitting incorrect information.</P>
-            </div>
-
-             <div class="check">
-          <input type="checkbox"><P>I hereby confirm that neither I nor any member of my team owns a registered company or a partnership firm, and we have not received any funding of INR 5 lakhs or above at the time of applying for the Samsung Solve for Tomorrow competition.
-</P>
-             </div>
-
-              <div class="check">
-          <input type="checkbox"><P>I hereby confirm that I am not an employee or agent of Samsung, its agencies, including the Implementation Partner, or any of its group companies. I further affirm that neither I nor my immediate family members are professionally connected to Samsung Solve for Tomorrow in any capacity.</P>
-              </div>
-
-              <p style="font-size: 13px;"><a href="hhh" target="_blank" style="color: black;">Important note for all applicants, either individual or in team, below 18 years of age at the time of submitting this application:</a>
-Clicking the "Submit" button will automatically lead to an email to the parents/guardian email id seeking consent for your participation in Samsung Solve for Tomorrow 2025. The verifiable link in the email is valid only for 7 days after which, if consent is not received, your submitted application will become invalid.</p>
-              <button class="submit">Submit</button><br>
-              <br>
-          </form>
-           
+                <form class="form" autocomplete="on">
+                    <ol class="question-list">
+                        <li>
+                            <fieldset>
+                                <legend>1. Who is entering?*</legend>
+                                <div class="checkbox-grid">
+                                    <label><input type="radio" name="who" value="individual" required> Individual</label>
+                                    <label><input type="radio" name="who" value="team-2"> Team of two</label>
+                                    <label><input type="radio" name="who" value="team-3"> Team of three</label>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>2. Full Name</legend>
+                                <label class="field-label" for="member1-name">Member 1</label>
+                                <input id="member1-name" type="text" name="member1-name" class="textbox" placeholder="Enter full name" required>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>3. Age</legend>
+                                <div class="checkbox-grid">
+                                    <label><input type="radio" name="age" value="14"> 14</label>
+                                    <label><input type="radio" name="age" value="15"> 15</label>
+                                    <label><input type="radio" name="age" value="16"> 16</label>
+                                    <label><input type="radio" name="age" value="17"> 17</label>
+                                    <label><input type="radio" name="age" value="18"> 18</label>
+                                    <label><input type="radio" name="age" value="19"> 19</label>
+                                    <label><input type="radio" name="age" value="20"> 20</label>
+                                    <label><input type="radio" name="age" value="21"> 21</label>
+                                    <label><input type="radio" name="age" value="22"> 22</label>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>4. Gender</legend>
+                                <div class="checkbox-grid">
+                                    <label><input type="radio" name="gender" value="male"> Male</label>
+                                    <label><input type="radio" name="gender" value="female"> Female</label>
+                                    <label><input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say</label>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>5. Where are you entering from?</legend>
+                                <div class="field-group">
+                                    <label class="field-label" for="state">State or region</label>
+                                    <select id="state" name="state" class="select-button" required>
+                                        <option value="">Select state</option>
+                                        <option value="maharashtra">Maharashtra</option>
+                                        <option value="goa">Goa</option>
+                                        <option value="karnataka">Karnataka</option>
+                                        <option value="gujarat">Gujarat</option>
+                                        <option value="andhra-pradesh">Andhra Pradesh</option>
+                                        <option value="bihar">Bihar</option>
+                                        <option value="haryana">Haryana</option>
+                                        <option value="delhi">Delhi</option>
+                                        <option value="himachal-pradesh">Himachal Pradesh</option>
+                                        <option value="jharkhand">Jharkhand</option>
+                                    </select>
+                                </div>
+                                <div class="field-group">
+                                    <label class="field-label" for="city">City</label>
+                                    <select id="city" name="city" class="select-button" required>
+                                        <option value="">Select city</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>6. Please indicate your most recent education.</legend>
+                                <div class="checkbox-grid">
+                                    <label><input type="radio" name="education" value="school"> School</label>
+                                    <label><input type="radio" name="education" value="college"> College</label>
+                                    <label><input type="radio" name="education" value="other"> Other</label>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>7. Do you have any disability?</legend>
+                                <div class="checkbox-grid">
+                                    <label><input type="radio" name="disability" value="yes"> Yes</label>
+                                    <label><input type="radio" name="disability" value="no"> No</label>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>8. Team name</legend>
+                                <label class="field-label" for="team-name">Team name</label>
+                                <input id="team-name" type="text" name="team-name" class="textbox" placeholder="Enter team name">
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>9. Select the theme under which you are submitting your idea.</legend>
+                                <label class="field-label" for="theme">Theme</label>
+                                <select id="theme" name="theme" class="select-button" required>
+                                    <option value="">Select theme</option>
+                                    <option value="inclusive-bharat">AI for smarter and inclusive Bharat</option>
+                                    <option value="future-health">Future of health, hygiene and wellbeing in India</option>
+                                    <option value="sports-tech">Social change through sports & tech</option>
+                                    <option value="environmental-sustainability">Environmental sustainability via technology</option>
+                                </select>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>10. Describe the problem you are trying to solve.</legend>
+                                <textarea name="problem-description" class="textbox textarea" placeholder="Explain the problem within your theme" required></textarea>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>11. Describe your solution.</legend>
+                                <textarea name="solution-description" class="textbox textarea" placeholder="Describe your app, product, or service" required></textarea>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>12. Who is the target audience for your solution?</legend>
+                                <textarea name="target-audience" class="textbox textarea" placeholder="Describe your user's profile" required></textarea>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>13. What is the current stage of your project?</legend>
+                                <select name="project-stage" class="select-button" required>
+                                    <option value="">Select current stage</option>
+                                    <option value="idea">Idea / Concept</option>
+                                    <option value="early-development">Early development</option>
+                                    <option value="advanced-stage">Advanced stage</option>
+                                    <option value="prototype-ready">Prototype ready</option>
+                                </select>
+                            </fieldset>
+                        </li>
+                        <li class="note">
+                            <p>We need to be able to contact you to let you know if your application has been successful – if entering as a team, please appoint one person to be your main point of contact.</p>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>14. Team lead details</legend>
+                                <label class="field-label" for="lead-name">Name of Team Lead</label>
+                                <input id="lead-name" type="text" name="lead-name" class="textbox" placeholder="Enter full name" required>
+                                <label class="field-label" for="lead-phone">Phone number</label>
+                                <input id="lead-phone" type="tel" name="lead-phone" class="textbox" placeholder="e.g. 9876543210" pattern="[0-9]{10}" required>
+                                <label class="field-label" for="lead-email">Email address</label>
+                                <input id="lead-email" type="email" name="lead-email" class="textbox" placeholder="you@example.com" required>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>17. Where did you first find out about Samsung Solve for Tomorrow?</legend>
+                                <input type="text" name="referral-source" class="textbox" placeholder="e.g. school, social media, friend" required>
+                            </fieldset>
+                        </li>
+                        <li class="consent-list">
+                            <label class="check"><input type="checkbox" required> I have read, understood and agreed to the Terms and Conditions and the Privacy Notice of Samsung Solve for Tomorrow.</label>
+                            <label class="check"><input type="checkbox"> By completing this form, you agree to receive information about Samsung Solve for Tomorrow.</label>
+                            <label class="check"><input type="checkbox" required> Information provided by me is true and correct, and I will be responsible for any consequences of submitting incorrect information.</label>
+                            <label class="check"><input type="checkbox"> I confirm that neither I nor any team member owns a registered company or partnership firm, and we have not received funding of INR 5 lakhs or above at the time of applying.</label>
+                            <label class="check"><input type="checkbox"> I confirm that I am not an employee or agent of Samsung or its agencies, and neither I nor my immediate family members are professionally connected to Samsung Solve for Tomorrow.</label>
+                        </li>
+                        <li>
+                            <p class="small-note"><a href="#" target="_blank" rel="noopener">Important note for all applicants under 18 years of age:</a> Clicking the "Submit" button will automatically lead to an email to the parent/guardian seeking consent for participation. The link is valid for 7 days.</p>
+                            <button type="submit" class="submit">Submit</button>
+                        </li>
+                    </ol>
+                </form>
+            </article>
         </main>
+
         <footer class="footer">
-          <div class="footlogo">
-            <img src="samsung.png" alt="logo samsung">
+            <div class="footer-top">
+                <img src="samsung.png" alt="Samsung logo" class="footer-logo">
+                <p class="footer-copy">This cloned website is created for educational purposes only. All trademarks belong to Samsung.</p>
             </div>
-            <div style="display: flex; justify-content: center;"> 
-            <p>This Website is Clone website is Created for Educational purpose only all rights of this websites are reserved by samsung</p>
+            <div class="footer-bottom">
+                <span>Created by Pruthviraj Suryawanshi</span>
+                <nav class="footer-links" aria-label="Contact links">
+                    <a href="https://www.linkedin.com/in/pruthviraj-suryawanshi-374a70269/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/Pruthvirajsuryawanshi" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://instagram.com/pruthvii2109" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://x.com/pruthvii2109" target="_blank" rel="noopener">Twitter</a>
+                </nav>
             </div>
-            <p class="name">Pruthviraj Suryawanshi</p>
-            <div class="contact">
-              <p>Contact Me:</p>
-              <p><a href="https://www.linkedin.com/in/pruthviraj-suryawanshi-374a70269/" target="_blank">LinkedIn</a></p>
-              <p><a href="https://github.com/Pruthvirajsuryawanshi" target="_blank">GitHub</a></p>
-              <p><a href="https://Instagram.com/pruthvii2109" target="_blank">Instagram</a></p>
-              <p><a href="https://x.com/pruthvii2109" target="_blank">Twitter</a></p>
-            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
           </footer>
     </body>
 </html>
